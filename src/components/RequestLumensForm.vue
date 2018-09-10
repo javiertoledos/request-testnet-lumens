@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Request Lumens</h2>
+        <h2>Request</h2>
         <form @submit.prevent="requestFunds">
             <div class="form-group">
                 <button @click.prevent="createPair" class="btn btn-outline-secondary">
